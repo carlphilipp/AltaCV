@@ -1,0 +1,358 @@
+%%%%%%%%%%%%%%%%%
+% This is an sample CV template created using altacv.cls
+% (v1.7.4, 30 Jul 2025) written by LianTze Lim (liantze@gmail.com), based on the
+% CV created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,withhypeper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper,withhyper]{altacv}
+%% AltaCV uses the fontawesome5 and simpleicons packages.
+%% See http://texdoc.net/pkg/fontawesome5 and http://texdoc.net/pkg/simpleicons for full list of symbols.
+
+% Change the page layout if you need to
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+% WHEN COMPILING WITH XELATEX PLEASE USE
+% xelatex -shell-escape -output-driver="xdvipdfmx -z 0" mmayer.tex
+\iftutex
+  % If using xelatex or lualatex:
+  \setmainfont{Lato}
+\else
+  % If using pdflatex:
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+% \colorlet{name}{black}
+% \colorlet{tagline}{PastelRed}
+\colorlet{heading}{VividPurple}
+\colorlet{headingrule}{VividPurple}
+% \colorlet{subheading}{PastelRed}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change some fonts, if necessary
+% \renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+% \renewcommand{\personalinfofont}{\footnotesize}
+% \renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+% \renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
+\renewcommand{\cvRatingMarker}{\faCircle}
+% ...and the markers for the date/location for \cvevent
+% \renewcommand{\cvDateMarker}{\faCalendar*[regular]}
+% \renewcommand{\cvLocationMarker}{\faMapMarker*}
+
+
+% If your CV/résumé is in a language other than English,
+% then you probably want to change these so that when you
+% copy-paste from the PDF or run pdftotext, the location
+% and date marker icons for \cvevent will paste as correct
+% translations. For example Spanish:
+% \renewcommand{\locationname}{Ubicación}
+% \renewcommand{\datename}{Fecha}
+
+
+%% Use (and optionally edit if necessary) this .tex if you
+%% want to use an author-year reference style like APA(6)
+%% for your publication list
+% \input{pubs-authoryear.cfg}
+
+%% Use (and optionally edit if necessary) this .tex if you
+%% want an originally numerical reference style like IEEE
+%% for your publication list
+\input{pubs-num.cfg}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Carl-Philipp Harmant}
+\tagline{Lead Software Engineer}
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+%% You can add multiple photos on the left or right
+%\photoR{2.5cm}{mmayer-wikipedia-cc-by-2_0}
+% \photoL{2cm}{Yacht_High,Suitcase_High}
+%\personalinfo{%
+  % Not all of these are required!
+  %\email{mmayer@yahoo-inc.com}
+  %\phone{000-00-0000}
+%  \mailaddress{Address, Street, 00000 County}
+%  \location{Sunnyvale, CA}
+%  \linkedin{marissamayer}
+  % \twitter{@marissamayer}
+%  \xtwitter{@marissamayer}
+%  \homepage{marissamayr.tumblr.com}
+%   \github{github.com/mmayer} % I'm just making this up though.
+%   \orcid{0000-0000-0000-0000} % Obviously making this up too.
+  %% You can add your own arbitrary detail with
+  %% \printinfo{symbol}{detail}[optional hyperlink prefix]
+  %% \printinfo{\faPaw}{Hey ho!}
+  %% Or you can declare your own field with
+  %% \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
+  % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
+  % \gitlab{your_id}
+	%%
+  %% For services and platforms like Mastodon where there isn't a
+  %% straightforward relation between the user ID/nickname and the hyperlink,
+  %% you can use \printinfo directly e.g.
+  % \printinfo{\faMastodon}{@username@instace}[https://instance.url/@username]
+  %% But if you absolutely want to create new dedicated info fields for
+  %% such platforms, then use \NewInfoField* with a star:
+  % \NewInfoField*{mastodon}{\faMastodon}
+  %% then you can use \mastodon, with TWO arguments where the 2nd argument is
+  %% the full hyperlink.
+  % \mastodon{@username@instance}{https://instance.url/@username}
+%}
+
+\makecvheadercusto
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Set the left/right column width ratio to 6:4.
+\columnratio{0.72}
+
+% Start a 2-column paracol. Both the left and right columns will automatically
+% break across pages if things get too long.
+\begin{paracol}{2}
+
+\cvsection{synopsis}
+
+{\small 
+
+Enthusiastic and curious Software Engineer dedicated to building thoughtful, high-quality software. My main toolkit includes Java, Kotlin, and modern architectural patterns that enable clean, maintainable codebases. I’m driven by problem-solving, learning, and contributing to the developer community — whether through my open-source projects on GitHub or sharing knowledge via technical writing, including my article on Clean Architecture. I love exploring new technologies and continuously improving both my craft and the systems I help build.
+
+}
+
+\cvsection{Experience}
+
+\cveventnew{Senior Software Engineer}{The Walt Disney Company}{June 2022 -- Present}{Chicago, IL (Remote)}
+\begin{itemize}
+\item Led design and development of scalable, microservices-based backend systems and APIs (REST, GraphQL, and gRPC) powering Disney+, Hulu, and ESPN streaming platforms.
+\item Delivered end-to-end solutions from architecture and design through deployment and production, ensuring reliability under high-concurrency traffic (8K+ RPS).
+\item Drove system performance tuning, observability improvements, and CI/CD pipeline optimizations, cutting build and deployment times by 50\%.
+\item Partnered with architects, DevOps, and security teams to strengthen cloud infrastructure, automation, and compliance best practices.
+\item Provided technical leadership and mentorship, influencing architecture, code quality, and cross-team engineering practices.
+\end{itemize}
+
+\divider
+
+\cveventnew{Senior Software Engineer}{Slalom}{July 2017 -- June 2022}{Chicago, IL}
+\begin{itemize}
+\item Designed and developed scalable backend systems and APIs for enterprise clients using Java and Spring Boot.
+\item Collaborated with architects, solution owners, and cross-functional teams to deliver maintainable, production-grade solutions.
+\item Championed code quality and testing practices (unit, integration, and end-to-end), improving reliability and maintainability.
+\item Contributed to cloud-based architectures and CI/CD pipelines, supporting continuous delivery and high availability.
+\item Mentored junior engineers and promoted engineering best practices across agile teams.
+\end{itemize}
+
+\divider
+
+\cveventmultiple{Peapod}{Chicago, IL}
+				{Senior Software Engineer}{Jan 2017 --  July 2017}
+				{Software Engineer}{Sept 2015 --  Jan 2017}
+\begin{itemize}		
+\item Designed and built secure, RESTful integration services using Spring MVC, Apache Camel, Karaf, and ActiveMQ, enabling seamless communication between loyalty, coupon, and user account systems.
+\item Championed TDD and automated testing (Serenity BDD) to improve reliability, maintainability, and long-term architecture quality across the platform.
+\end{itemize}
+
+\divider
+
+\cveventnew{}{Previous roles}{}{}
+\begin{itemize}
+%\item Peapod
+\item Pros: Implementation Consultant. (Feb 2012 -- Sept 2015 - Chicago, IL) Integrated and customized PROS CPQ solutions within enterprise systems using Java EE, web services, and custom plugins, contributing to full-stack delivery from UI design (HTML, CSS, JavaScript) to cloud deployment.
+\item Fujitsu Technology Solution: Java Developer. (Apr. 2011 - Aug. 2011, Luxembourg) Engineered a custom Maven plugin to automate Arquillian test generation and dependency resolution via Java Reflection, significantly improving the company’s integration testing process and developer efficiency.
+\end{itemize}
+
+
+% \divider
+
+% \cvevent{Product Engineer}{Google}{23 June 1999 -- 2001}{Palo Alto, CA}
+
+% \begin{itemize}
+% \item Joined the company as employe \#20 and female employee \#1
+% \item Developed targeted advertisement in order to use user's search queries and show them related ads
+% \end{itemize}
+
+%\cvsection{A Day of My Life}
+
+% Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+% \wheelchart{outer radius}{inner radius}{
+% comma-separated list of value/text width/color/detail}
+% Some ad-hoc tweaking to adjust the labels so that they don't overlap
+%\hspace*{-1em}  %% quick hack to move the wheelchart a bit left
+%\wheelchart{1.5cm}{0.5cm}{%
+%  10/13em/accent!30/Sleeping \& dreaming about work,
+%  25/9em/accent!60/Public resolving issues with Yahoo!\ investors,
+%  5/11em/accent!10/\footnotesize\\[1ex]New York \& San Francisco Ballet Jawbone board member,
+%  20/11em/accent!40/Spending time with family,
+%  5/8em/accent!20/\footnotesize Business development for Yahoo!\ after the Verizon acquisition,
+%  30/9em/accent/Showing Yahoo!\ \mbox{employees} that their work has meaning,
+%  5/8em/accent!20/Baking cupcakes
+%}
+
+% use ONLY \newpage if you want to force a page break for
+% ONLY the currentc column
+%\newpage
+
+%\cvsection{Publications}
+
+%% Specify your last name(s) and first name(s) as given in the .bib to automatically bold your own name in the publications list.
+%% One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly; or write \bibnamedelimi if you use initials in the .bib
+%% You can specify multiple names, especially if you have changed your name or if you need to highlight multiple authors.
+%\mynames{Lim/Lian\bibnamedelima Tze,
+%  Wong/Lian\bibnamedelima Tze,
+%  Lim/Tracy,
+%  Lim/L.\bibnamedelimi T.}
+%% MAKE SURE THERE IS NO SPACE AFTER THE FINAL NAME IN YOUR \mynames LIST
+
+%\nocite{*}
+
+%\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+
+%\divider
+
+%\printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}}, type=article]
+
+%\divider
+
+%\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
+
+%% Switch to the right column. This will now automatically move to the second
+%% page if the content is too long.
+\switchcolumn
+
+%\cvsection{Life Philosophy}
+%\begin{quote}
+%``If you don't have any shadows, you're not standing in the light.''
+%\end{quote}
+
+\cvsection{Contact}
+
+	\email{cp.harmant@gmail.com}
+	
+	\divider
+
+
+	\phone{312-834-1637}
+	
+	\divider
+
+
+	\location{Chicago, Illinois}
+	
+	\divider
+
+	\linkedin{carlphilipp}
+	
+	\divider
+	
+	\github{carlphilipp}
+
+%\cvsection{Most Proud of}
+
+%\cvachievement{\faTrophy}{Courage I had}{to take a sinking ship and try to make it float}
+
+%\divider
+
+%\cvachievement{\faHeartbeat}{Persistence \& Loyalty}{I showed despite the hard moments and my willingness to stay with Yahoo after the acquisition}
+
+%\divider
+
+%\cvachievement{\faChartLine}{Google's Growth}{from a hundred thousand searches per day to over a billion}
+
+%\divider
+
+%\cvachievement{\faFemale}{Inspiring women in tech}{Youngest CEO on Fortune's list of 50 most powerful women}
+
+\cvsection{Skills}
+
+% Don't overuse these \cvtag boxes — they're just eye-candies and not essential. If something doesn't fit on a single line, it probably works better as part of an itemized list (probably inlined itemized list), or just as a comma-separated list of strengths.
+
+\cvtag{Backend}
+\cvtag{Architecture}
+\cvtag{Distributed Systems}
+\cvtag{Cloud}
+\cvtag{Microservices}
+\cvtag{CI/CD}
+\cvtag{Agile}
+\cvtag{Observability}
+
+
+\divider\smallskip
+
+\cvtag{Java}
+\cvtag{Spring Boot}
+\cvtag{GraphQL}
+\cvtag{gRPC}
+\cvtag{REST}
+\cvtag{Datadog}
+
+\cvtag{Docker}
+\cvtag{K8s}
+\cvtag{Jenkins}
+\cvtag{Spinnaker}
+\cvtag{AWS}
+
+
+
+%\cvsection{Languages}
+
+%\cvskill{English}{5}
+%\divider
+
+%\cvskill{Spanish}{4}
+%\divider
+
+%\cvskill{German}{3.5} %% supports X.5 values.
+
+
+\cvsection{Education}
+
+\cvevent{M.S.\ in Computer Science}{Exia.Cesi, France}{2013}{}
+
+\divider
+
+\cvevent{B.S.\ in Computer Science}{Exia.Cesi, France}{2011}{}
+
+
+%\newpage
+
+%\cvsection{Referees}
+
+% \cvref{name}{email}{mailing address}
+%\cvref{Prof.\ Alpha Beta}{Institute}{a.beta@university.edu}
+%{Address Line 1\\Address Line 2}
+
+%\divider
+
+%\cvref{Prof.\ Gamma Delta}{Institute}{g.delta@university.edu}
+%{Address Line 1\\Address Line 2}
+
+\end{paracol}
+
+\end{document}

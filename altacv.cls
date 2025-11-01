@@ -299,6 +299,21 @@
   \endgroup\medskip
 }
 
+\newcommand{\makecvheadercusto}{%
+  \begingroup
+    \altacv@left@photos\hfill%
+    \begin{minipage}{\dimexpr\linewidth-\altacv@photos@width}%
+    \raggedright%
+    {\namefont\color{name}\MakeUppercase{\@name}\par}
+    \medskip
+    {\taglinefont\color{tagline}\@tagline\par}
+    %\medskip
+    %{\personalinfofont\@personalinfo\par}
+    \end{minipage}\hfill%
+    \altacv@right@photos\par%
+  \endgroup\medskip
+}
+
 \renewenvironment{quote}{\color{accent}\itshape\large}{\par}
 
 \newcommand{\cvsection}[2][]{%
@@ -331,6 +346,83 @@
       {\BeginAccSupp{method=pdfstringdef,ActualText={\locationname:}}\cvLocationMarker\EndAccSupp{}%
         ~#4}%
     }}\par
+  \medskip\normalsize
+}
+
+\newcommand{\cveventnew}[4]{%
+	% Company name
+  	\ifstrequal{#2}{}{}{%
+    	{\small\makebox[0.5\linewidth][l]%
+      	{\large\color{emphasis}#2}%
+  	}}%
+  	% Location
+   	\ifstrequal{#4}{}{}{%
+  		{\footnotesize\makebox[0.5\linewidth][r]%
+      	{\BeginAccSupp{method=pdfstringdef,ActualText={\locationname:}}\cvLocationMarker\EndAccSupp{}%
+        	~#4}%
+    }}
+
+  
+  	\smallskip
+  
+  	\normalsize
+	
+	% Title
+	\ifstrequal{#1}{}{}{%
+		{\small\makebox[0.5\linewidth][l]%
+      {\textbf{#1}}% %\color{accent}
+  	}}%
+  	% Dates
+  	\ifstrequal{#3}{}{}{%
+  	{\footnotesize\makebox[0.5\linewidth][r]%
+      {\BeginAccSupp{method=pdfstringdef,ActualText={\datename:}}\cvDateMarker\EndAccSupp{}%
+      ~#3}%
+    }}%
+
+    \par
+  \medskip\normalsize
+}
+
+\newcommand{\cveventmultiple}[6]{%
+	% Company name
+  	\ifstrequal{#1}{}{}{%
+    	{\small\makebox[0.5\linewidth][l]%
+      	{\large\color{emphasis}#1}%
+  	}}%
+  	% Location
+   	\ifstrequal{#2}{}{}{%
+  		{\footnotesize\makebox[0.5\linewidth][r]%
+      	{\BeginAccSupp{method=pdfstringdef,ActualText={\locationname:}}\cvLocationMarker\EndAccSupp{}%
+        	~#2}%
+    }}
+
+  
+  	\smallskip
+  
+  	\normalsize
+	
+	% Title 1
+	\ifstrequal{#3}{}{}{%
+		{\small\makebox[0.5\linewidth][l]%
+      {\textbf{#3}}%
+  	}}%
+  	% Dates
+  	{\footnotesize\makebox[0.5\linewidth][r]%
+      {\BeginAccSupp{method=pdfstringdef,ActualText={\datename:}}\cvDateMarker\EndAccSupp{}%
+      ~#4}%
+    }
+    % Title 2
+	\ifstrequal{#5}{}{}{%
+		{\small\makebox[0.5\linewidth][l]%
+      {\textbf{#5}}%
+  	}}%
+  	% Dates
+  	{\footnotesize\makebox[0.5\linewidth][r]%
+      {\BeginAccSupp{method=pdfstringdef,ActualText={\datename:}}\cvDateMarker\EndAccSupp{}%
+      ~#6}%
+    }
+
+    \par
   \medskip\normalsize
 }
 
