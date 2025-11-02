@@ -25,6 +25,8 @@
 % The paracol package lets you typeset columns of text in parallel
 \usepackage{paracol}
 
+\usepackage{ragged2e}
+
 
 % Change the font if you want to, depending on whether
 % you're using pdflatex or xelatex/lualatex
@@ -141,32 +143,34 @@
 
 \cvsection{synopsis}
 
+
 {\small 
-
+\begin{justify}
 Enthusiastic and curious Software Engineer dedicated to building thoughtful, high-quality software. My main toolkit includes Java, Kotlin, and modern architectural patterns that enable clean, maintainable codebases. I’m driven by problem-solving, learning, and contributing to the developer community — whether through my open-source projects on GitHub or sharing knowledge via technical writing, including my article on Clean Architecture. I love exploring new technologies and continuously improving both my craft and the systems I help build.
-
+\end{justify}
 }
+
 
 \cvsection{Experience}
 
 \cveventnew{Senior Software Engineer}{The Walt Disney Company}{June 2022 -- Present}{Chicago, IL (Remote)}
 \begin{itemize}
-\item Led design and development of scalable, microservices-based backend systems and APIs (REST, GraphQL, and gRPC) powering Disney+, Hulu, and ESPN streaming platforms.
-\item Delivered end-to-end solutions from architecture and design through deployment and production, ensuring reliability under high-concurrency traffic (8K+ RPS).
-\item Drove system performance tuning, observability improvements, and CI/CD pipeline optimizations, cutting build and deployment times by 50\%.
-\item Partnered with architects, DevOps, and security teams to strengthen cloud infrastructure, automation, and compliance best practices.
-\item Provided technical leadership and mentorship, influencing architecture, code quality, and cross-team engineering practices.
+\item \justifying Led design and development of scalable, microservices-based backend systems and APIs (REST, GraphQL, and gRPC) powering Disney+, Hulu, and ESPN streaming platforms.
+\item \justifying Delivered end-to-end solutions from architecture and design through deployment and production, ensuring reliability under high-concurrency traffic (8K+ RPS).
+\item \justifying Drove system performance tuning, observability improvements, and CI/CD pipeline optimizations, cutting build and deployment times by 50\%.
+\item \justifying Partnered with architects, DevOps, and security teams to strengthen cloud infrastructure, automation, and compliance best practices.
+\item \justifying Provided technical leadership and mentorship, influencing architecture, code quality, and cross-team engineering practices.
 \end{itemize}
 
 \divider
 
 \cveventnew{Senior Software Engineer}{Slalom}{July 2017 -- June 2022}{Chicago, IL}
 \begin{itemize}
-\item Designed and developed scalable backend systems and APIs for enterprise clients using Java and Spring Boot.
-\item Collaborated with architects, solution owners, and cross-functional teams to deliver maintainable, production-grade solutions.
-\item Championed code quality and testing practices (unit, integration, and end-to-end), improving reliability and maintainability.
-\item Contributed to cloud-based architectures and CI/CD pipelines, supporting continuous delivery and high availability.
-\item Mentored junior engineers and promoted engineering best practices across agile teams.
+\item \justifying Designed and developed scalable backend systems and APIs for enterprise clients using Java and Spring Boot.
+\item \justifying Collaborated with architects, solution owners, and cross-functional teams to deliver maintainable, production-grade solutions.
+\item \justifying Championed code quality and testing practices (unit, integration, and end-to-end), improving reliability and maintainability.
+\item \justifying Contributed to cloud-based architectures and CI/CD pipelines, supporting continuous delivery and high availability.
+\item \justifying Mentored junior engineers and promoted engineering best practices across agile teams.
 \end{itemize}
 
 \divider
@@ -175,18 +179,28 @@ Enthusiastic and curious Software Engineer dedicated to building thoughtful, hig
 				{Senior Software Engineer}{Jan 2017 --  July 2017}
 				{Software Engineer}{Sept 2015 --  Jan 2017}
 \begin{itemize}		
-\item Designed and built secure, RESTful integration services using Spring MVC, Apache Camel, Karaf, and ActiveMQ, enabling seamless communication between loyalty, coupon, and user account systems.
-\item Championed TDD and automated testing (Serenity BDD) to improve reliability, maintainability, and long-term architecture quality across the platform.
+\item \justifying Designed and built secure, RESTful integration services using Spring MVC, Apache Camel, Karaf, and ActiveMQ, enabling seamless communication between loyalty, coupon, and user account systems.
+\item \justifying Championed TDD and automated testing (Serenity BDD) to improve reliability, maintainability, and long-term architecture quality across the platform.
 \end{itemize}
 
 \divider
 
-\cveventnew{}{Previous roles}{}{}
+%\newpage
+
+%\cveventprevious{Pros}{Implementation Consultant}{Feb 2012 -- Sept 2015}{Chicago, IL}
+%				{Integrated and customized PROS CPQ solutions within enterprise systems using Java EE, web services, and custom plugins, contributing to full-stack delivery across on-premise and cloud environments.}
+%				{Fujitsu}{Java Developer}{Apr. 2011 - Aug. 2011}{Luxembourg}
+%				{Engineered a custom Maven plugin to automate Arquillian test generation and dependency resolution via Java Reflection, significantly improving the company’s integration testing process and developer efficiency.}
+
+
+\cveventprevious
 \begin{itemize}
-%\item Peapod
-\item Pros: Implementation Consultant. (Feb 2012 -- Sept 2015 - Chicago, IL) Integrated and customized PROS CPQ solutions within enterprise systems using Java EE, web services, and custom plugins, contributing to full-stack delivery from UI design (HTML, CSS, JavaScript) to cloud deployment.
-\item Fujitsu Technology Solution: Java Developer. (Apr. 2011 - Aug. 2011, Luxembourg) Engineered a custom Maven plugin to automate Arquillian test generation and dependency resolution via Java Reflection, significantly improving the company’s integration testing process and developer efficiency.
+\cveventpreviousentry{Pros}{Implementation Consultant}{Feb 2012 -- Sept 2015}{Chicago, IL}
+				{Integrated and customized PROS CPQ solutions within enterprise systems using Java EE, web services, and custom plugins, contributing to full-stack delivery across on-premise and cloud environments.}
+\cveventpreviousentry{Fujitsu Technology Solution}{Java Developer}{Apr. 2011 - Aug. 2011}{Luxembourg}
+				{Engineered a custom Maven plugin to automate Arquillian test generation and dependency resolution via Java Reflection, significantly improving the company’s integration testing process and developer efficiency.}
 \end{itemize}
+
 
 
 % \divider
@@ -311,7 +325,6 @@ Enthusiastic and curious Software Engineer dedicated to building thoughtful, hig
 \cvtag{gRPC}
 \cvtag{REST}
 \cvtag{Datadog}
-
 \cvtag{Docker}
 \cvtag{K8s}
 \cvtag{Jenkins}
@@ -338,6 +351,12 @@ Enthusiastic and curious Software Engineer dedicated to building thoughtful, hig
 \divider
 
 \cvevent{B.S.\ in Computer Science}{Exia.Cesi, France}{2011}{}
+
+\cvsection{Interests}
+
+\cvevent{Runner}{}{}{}
+\cvevent{Father}{}{}{}
+
 
 
 %\newpage

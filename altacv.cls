@@ -52,6 +52,7 @@
   \let\\\space
 }
 \RequirePackage{xparse}
+\usepackage{xparse}
 \RequirePackage[margin=2cm]{geometry}
 \RequirePackage[fixed]{fontawesome5}%[2020-01-15]
 
@@ -425,6 +426,33 @@
     \par
   \medskip\normalsize
 }
+
+
+\newcommand{\cveventprevious}[0]{%
+
+	% Title
+	{\large\color{emphasis}Previous Roles}
+
+    \par
+  \medskip\normalsize
+}
+
+\newcommand{\cveventpreviousentry}[5]{%
+    \item \justifying {
+    	\small\makebox[0.5\linewidth][l]%
+    	% Company name - Role
+      	{{\color{emphasis}#1 -} \textbf{#2}}%
+      	{\footnotesize\makebox[0.5\linewidth][r] 
+      		{
+      			
+      			\BeginAccSupp{method=pdfstringdef,ActualText={\datename:}}\cvDateMarker\EndAccSupp{}#3
+      			\BeginAccSupp{method=pdfstringdef,ActualText={\locationname:}}\cvLocationMarker\EndAccSupp{}#4
+      		}
+      		\\#5
+      	}
+  	}
+}
+
 
 % v1.7: adds accsupp for the icon as well
 \newcommand{\cvachievement}[3]{%

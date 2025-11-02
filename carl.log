@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2026/dev/Arch Linux)  (format=lualatex 2025.8.26)  31 OCT 2025 23:04
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2026/dev/Arch Linux)  (format=lualatex 2025.8.26)  1 NOV 2025 21:46
  restricted system commands enabled.
 **carl.tex
 (./carl.tex
@@ -834,6 +834,23 @@ Package: paracol 2024/10/22 1.36 typeset columns in parallel
 \pcol@colorins=\insert252
 \pcol@everyvbox=\toks43
 )
+(/usr/share/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip62
+\RaggedLeftLeftskip=\skip63
+\RaggedRightLeftskip=\skip64
+\CenteringRightskip=\skip65
+\RaggedLeftRightskip=\skip66
+\RaggedRightRightskip=\skip67
+\CenteringParfillskip=\skip68
+\RaggedLeftParfillskip=\skip69
+\RaggedRightParfillskip=\skip70
+\JustifyingParfillskip=\skip71
+\CenteringParindent=\skip72
+\RaggedLeftParindent=\skip73
+\RaggedRightParindent=\skip74
+\JustifyingParindent=\skip75
+)
 luaotfload | cache : Lookup cache loaded from /home/carl/.texlive/texmf-var/luat
 ex-cache/generic/names/luaotfload-lookup-cache.luc.
 
@@ -911,14 +928,14 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@sectionciteorderinternal@0=\count383
 \blx@entrysetcounter=\count384
 \blx@biblioinstance=\count385
-\labelnumberwidth=\skip62
-\labelalphawidth=\skip63
-\biblabelsep=\skip64
-\bibitemsep=\skip65
-\bibnamesep=\skip66
-\bibinitsep=\skip67
-\bibparsep=\skip68
-\bibhang=\skip69
+\labelnumberwidth=\skip76
+\labelalphawidth=\skip77
+\biblabelsep=\skip78
+\bibitemsep=\skip79
+\bibnamesep=\skip80
+\bibinitsep=\skip81
+\bibparsep=\skip82
+\bibhang=\skip83
 \blx@bcfin=\read5
 \blx@bcfout=\write5
 \blx@langwohyphens=\language2
@@ -1003,20 +1020,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedoriglanguage=\count454
 \c@pageref=\count455
 \c@savedpageref=\count456
-\shorthandwidth=\skip70
-\shortjournalwidth=\skip71
-\shortserieswidth=\skip72
-\shorttitlewidth=\skip73
-\shortauthorwidth=\skip74
-\shorteditorwidth=\skip75
-\locallabelnumberwidth=\skip76
-\locallabelalphawidth=\skip77
-\localshorthandwidth=\skip78
-\localshortjournalwidth=\skip79
-\localshortserieswidth=\skip80
-\localshorttitlewidth=\skip81
-\localshortauthorwidth=\skip82
-\localshorteditorwidth=\skip83
+\shorthandwidth=\skip84
+\shortjournalwidth=\skip85
+\shortserieswidth=\skip86
+\shorttitlewidth=\skip87
+\shortauthorwidth=\skip88
+\shorteditorwidth=\skip89
+\locallabelnumberwidth=\skip90
+\locallabelalphawidth=\skip91
+\localshorthandwidth=\skip92
+\localshortjournalwidth=\skip93
+\localshortserieswidth=\skip94
+\localshorttitlewidth=\skip95
+\localshortauthorwidth=\skip96
+\localshorteditorwidth=\skip97
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
@@ -1114,26 +1131,26 @@ OK AddToHook biblatex after works
  (./carl.aux)
 \openout1 = carl.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count470
@@ -1156,7 +1173,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 91.
+Package hyperref Info: Link coloring OFF on input line 93.
  (./carl.out)
 (./carl.out)
 \@outlinefile=\write6
@@ -1204,57 +1221,57 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 91.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 91.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 91.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 91.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 91.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 91.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 91.
-LaTeX Font Info:    Redeclaring math accent \check on input line 91.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 91.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 91.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 91.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 91.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 93.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 93.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 93.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 93.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 93.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 93.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 93.
+LaTeX Font Info:    Redeclaring math accent \check on input line 93.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 93.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 93.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 93.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 93.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 91.
+(Font)              `operators' in the math version `normal' on input line 93.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Lato(0)/m/n on input line 91.
+(Font)                  OT1/cmr/m/n --> TU/Lato(0)/m/n on input line 93.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 91.
+(Font)              `operators' in the math version `bold' on input line 93.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Lato(0)/m/n on input line 91.
+(Font)                  OT1/cmr/bx/n --> TU/Lato(0)/m/n on input line 93.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/Lato(0)/m/n --> TU/Lato(0)/m/n on input line 91.
+(Font)                  TU/Lato(0)/m/n --> TU/Lato(0)/m/n on input line 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Lato(0)/m/it on input line 91.
+(Font)                  OT1/cmr/m/it --> TU/Lato(0)/m/it on input line 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Lato(0)/b/n on input line 91.
+(Font)                  OT1/cmr/bx/n --> TU/Lato(0)/b/n on input line 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 91.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 91.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 93.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/Lato(0)/m/n --> TU/Lato(0)/b/n on input line 91.
+(Font)                  TU/Lato(0)/m/n --> TU/Lato(0)/b/n on input line 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Lato(0)/b/it on input line 91.
+(Font)                  OT1/cmr/bx/it --> TU/Lato(0)/b/it on input line 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 91.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 93.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 91.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 93.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 (/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1270,14 +1287,20 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'carl.bbl' not found.
 
 No file carl.bbl.
-Package biblatex Info: Reference section=0 on input line 91.
-Package biblatex Info: Reference segment=0 on input line 91.
+Package biblatex Info: Reference section=0 on input line 93.
+Package biblatex Info: Reference segment=0 on input line 93.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 130.
+(Font)              <7> on input line 132.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 130.
+(Font)              <5> on input line 132.
 
-Overfull \hbox (1.41542pt too wide) in paragraph at lines 256--257
+Overfull \hbox (0.91pt too wide) in paragraph at lines 170--171
+[]\TU/Lato(0)/m/n/9 Col-lab-o-rated with ar-chi-tects, so-lu-tion own-ers, and 
+cross-functional teams to de-liver main-
+ []
+
+
+Overfull \hbox (1.41542pt too wide) in paragraph at lines 270--271
 [][]  
  []
 
@@ -1296,23 +1319,23 @@ Package logreq Info: Writing requests to 'carl.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45372 strings out of 475506
+ 45464 strings out of 475506
  156408,1977958 words of node,token memory allocated
- 1091 words of node memory still in use:
-   3 hlist, 5 vlist, 1 rule, 48 glue, 3 kern, 1 glyph, 55 attribute, 72 glue_spe
-c, 55 attribute_list, 2 write nodes
-   avail lists: 1:5,2:2936,3:2494,4:309,5:1838,6:178,7:14531,8:1,9:1491,10:14,11
-:1127,12:1
- 67505 multiletter control sequences out of 65536+600000
+ 1271 words of node memory still in use:
+   3 hlist, 5 vlist, 1 rule, 58 glue, 3 kern, 1 glyph, 65 attribute, 86 glue_spe
+c, 65 attribute_list, 2 write nodes
+   avail lists: 1:3,2:3074,3:2557,4:351,5:1832,6:187,7:14720,8:2,9:1542,10:4,11:
+1142,12:1
+ 67592 multiletter control sequences out of 65536+600000
  56 fonts using 14186359 bytes
- 117i,7n,117p,1180b,2770s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,7n,117p,1180b,2838s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Brands-Reg
 ular-400.otf></usr/share/texmf-dist/fonts/opentype/public/fontawesome5/FontAweso
 me5Free-Regular-400.otf></usr/share/texmf-dist/fonts/opentype/public/fontawesome
 5/FontAwesome5Free-Solid-900.otf></usr/share/texmf-dist/fonts/truetype/typoland/
 lato/Lato-Regular.ttf></usr/share/texmf-dist/fonts/truetype/typoland/lato/Lato-B
 old.ttf>
-Output written on carl.pdf (1 page, 62878 bytes).
+Output written on carl.pdf (1 page, 64399 bytes).
 
 PDF statistics: 57 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 131072)
