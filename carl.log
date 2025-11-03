@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2026/dev/Arch Linux)  (format=lualatex 2025.8.26)  1 NOV 2025 21:46
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2026/dev/Arch Linux)  (format=lualatex 2025.8.26)  2 NOV 2025 21:20
  restricted system commands enabled.
 **carl.tex
 (./carl.tex
@@ -1304,6 +1304,11 @@ Overfull \hbox (1.41542pt too wide) in paragraph at lines 270--271
 [][]  
  []
 
+
+Overfull \hbox (16.53539pt too wide) in paragraph at lines 282--283
+[][]  
+ []
+
 [1
 
 ] (./carl.aux)
@@ -1320,11 +1325,11 @@ Package logreq Info: Writing requests to 'carl.run.xml'.
 
 Here is how much of LuaTeX's memory you used:
  45464 strings out of 475506
- 156408,1977958 words of node,token memory allocated
- 1271 words of node memory still in use:
-   3 hlist, 5 vlist, 1 rule, 58 glue, 3 kern, 1 glyph, 65 attribute, 86 glue_spe
-c, 65 attribute_list, 2 write nodes
-   avail lists: 1:3,2:3074,3:2557,4:351,5:1832,6:187,7:14720,8:2,9:1542,10:4,11:
+ 195517,1977958 words of node,token memory allocated
+ 1337 words of node memory still in use:
+   3 hlist, 5 vlist, 1 rule, 64 glue, 3 kern, 1 glyph, 71 attribute, 86 glue_spe
+c, 71 attribute_list, 2 write nodes
+   avail lists: 1:3,2:3122,3:2572,4:369,5:1859,6:196,7:14934,8:2,9:1605,10:4,11:
 1142,12:1
  67592 multiletter control sequences out of 65536+600000
  56 fonts using 14186359 bytes
@@ -1335,7 +1340,7 @@ me5Free-Regular-400.otf></usr/share/texmf-dist/fonts/opentype/public/fontawesome
 5/FontAwesome5Free-Solid-900.otf></usr/share/texmf-dist/fonts/truetype/typoland/
 lato/Lato-Regular.ttf></usr/share/texmf-dist/fonts/truetype/typoland/lato/Lato-B
 old.ttf>
-Output written on carl.pdf (1 page, 64399 bytes).
+Output written on carl.pdf (1 page, 65538 bytes).
 
 PDF statistics: 57 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 131072)
