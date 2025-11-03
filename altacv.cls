@@ -312,7 +312,8 @@
     %{\personalinfofont\@personalinfo\par}
     \end{minipage}\hfill%
     \altacv@right@photos\par%
-  \endgroup\medskip
+  \endgroup
+  \medskip
 }
 
 \renewenvironment{quote}{\color{accent}\itshape\large}{\par}
@@ -346,8 +347,17 @@
     {\small\makebox[0.5\linewidth][l]%
       {\BeginAccSupp{method=pdfstringdef,ActualText={\locationname:}}\cvLocationMarker\EndAccSupp{}%
         ~#4}%
-    }}\par
-  \medskip\normalsize
+    }}\normalsize
+}
+
+\newcommand{\cveventeducation}[3]{%
+	{\large\color{emphasis}#1\par}
+	\smallskip
+	\normalsize
+	{\color{accent}#2}
+	{\small\makebox[0.44\linewidth][r]%
+		{\BeginAccSupp{method=pdfstringdef,ActualText={\datename:}}\cvDateMarker\EndAccSupp{}#3}%
+	}
 }
 
 \newcommand{\cveventnew}[4]{%
